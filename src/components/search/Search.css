@@ -1,0 +1,33 @@
+.search-wrapper-div{
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.search-wrapper{
+    margin: auto;
+    border-radius: 2rem;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.search-wrapper button{
+    height: 100%;
+    padding: 1.45rem;
+    border: none;
+    background-color: #d6510b;
+    color: white;
+}
+.search{
+    margin: auto;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    width: 400px;
+    border-radius: 2rem;
+    border: none;
+}
+.search:focus-visible{
+    outline: none;
+}
+
+h2{
+    text-align: center;
+}
